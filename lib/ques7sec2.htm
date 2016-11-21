@@ -1,0 +1,3903 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ques7sec2.htm</title>
+<meta charset="utf-8"/>
+<style type="text/css">.details{position: absolute;left: -9999px;}
+.IELargeImage{display:inline-block;font-family: Arial, Helvetica, sans-serif;font-size: medium;color:#ff0000;font-weight:normal;vertical-align:middle;}</style></head>
+<body>
+<CENTER><H1><b><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:18pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Nonparametric&nbsp;Correlations</b></H1></CENTER><BR>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="3" data-colLabelHeight="1" data-NumRows="12" data-NumCols="4" data-rowLabels="Corner" data-decimal-char="." data-col-labels="Age;Educ;Sex;Earn" data-row-labels="Spearman's rho Age Correlation Coefficient;  Sig. (2-tailed);  N; Educ Correlation Coefficient;  Sig. (2-tailed);  N; Sex Correlation Coefficient;  Sig. (2-tailed);  N; Earn Correlation Coefficient;  Sig. (2-tailed);  N" data-layer-dimension="" data-column-dimension="Variables2;" data-row-dimension="Type;Variables1;Statistics;" data-maxColWidth="72">
+<caption class="title" style="width:564px">Correlations<span class="details">Correlations, table, 1 levels of column headers and 3 levels of row headers, table with 7 columns and 14 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels" colspan="3">&nbsp;</td>
+<td class="columnLabels dataAreaLeft vCC role3">Age</td>
+<td class="columnLabels vCC role3">Educ</td>
+<td class="columnLabels vCC role3">Sex</td>
+<td class="columnLabels vCC role3">Earn</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role3" rowspan="12">Spearman's rho</td>
+<td class="rowLabels dataAreaTop vCR role3" rowspan="3">Age</td>
+<td class="rowLabels dataAreaTop vCR role3">Correlation Coefficient</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">1.000</td>
+<td class=" e dataAreaTop vCC">.311</td>
+<td class=" e dataAreaTop vCC">-.091</td>
+<td class=" e dataAreaTop vCC">.249</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Sig. (2-tailed)</td>
+<td class=" o dataAreaLeft hCR vCC">.</td>
+<td class=" o hCR vCC">.182</td>
+<td class=" o hCR vCC">.701</td>
+<td class=" o hCR vCC">.291</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">N</td>
+<td class=" e dataAreaLeft hCR vCC">20</td>
+<td class=" e hCR vCC">20</td>
+<td class=" e hCR vCC">20</td>
+<td class=" e hCR vCC">20</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3" rowspan="3">Educ</td>
+<td class="rowLabels hCR vCR role3">Correlation Coefficient</td>
+<td class=" o dataAreaLeft hCR vCC">.311</td>
+<td class=" o hCR vCC">1.000</td>
+<td class=" o hCR vCC">.117</td>
+<td class=" o hCR vCC">.156</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Sig. (2-tailed)</td>
+<td class=" e dataAreaLeft hCR vCC">.182</td>
+<td class=" e hCR vCC">.</td>
+<td class=" e hCR vCC">.624</td>
+<td class=" e hCR vCC">.511</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">N</td>
+<td class=" o dataAreaLeft hCR vCC">20</td>
+<td class=" o hCR vCC">20</td>
+<td class=" o hCR vCC">20</td>
+<td class=" o hCR vCC">20</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3" rowspan="3">Sex</td>
+<td class="rowLabels hCR vCR role3">Correlation Coefficient</td>
+<td class=" e dataAreaLeft hCR vCC">-.091</td>
+<td class=" e hCR vCC">.117</td>
+<td class=" e hCR vCC">1.000</td>
+<td class=" e hCR vCC">-.427</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Sig. (2-tailed)</td>
+<td class=" o dataAreaLeft hCR vCC">.701</td>
+<td class=" o hCR vCC">.624</td>
+<td class=" o hCR vCC">.</td>
+<td class=" o hCR vCC">.060</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">N</td>
+<td class=" e dataAreaLeft hCR vCC">20</td>
+<td class=" e hCR vCC">20</td>
+<td class=" e hCR vCC">20</td>
+<td class=" e hCR vCC">20</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3" rowspan="3">Earn</td>
+<td class="rowLabels hCR vCR role3">Correlation Coefficient</td>
+<td class=" o dataAreaLeft hCR vCC">.249</td>
+<td class=" o hCR vCC">.156</td>
+<td class=" o hCR vCC">-.427</td>
+<td class=" o hCR vCC">1.000</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Sig. (2-tailed)</td>
+<td class=" e dataAreaLeft hCR vCC">.291</td>
+<td class=" e hCR vCC">.511</td>
+<td class=" e hCR vCC">.060</td>
+<td class=" e hCR vCC">.</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">N</td>
+<td class=" o dataAreaLeft hCR vCC">20</td>
+<td class=" o hCR vCC">20</td>
+<td class=" o hCR vCC">20</td>
+<td class=" o hCR vCC">20</td>
+</tr>
+<tr>
+<td  style="width:107px;padding:0px;border-spacing:0px"></td>
+<td  style="width:48px;padding:0px;border-spacing:0px"></td>
+<td  style="width:141px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tbody>
+</table>
+</div><CENTER><H1><b><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:18pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Logistic&nbsp;Regression</b></H1></CENTER><BR>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="2" data-colLabelHeight="1" data-NumRows="5" data-NumCols="2" data-rowLabels="Corner" data-decimal-char="." data-col-labels="N;Percent" data-row-labels="Selected Cases Included in Analysis; Missing Cases; Total;Unselected Cases ;Total " data-layer-dimension="" data-column-dimension="Statistics;" data-row-dimension="Unweighted Cases;" data-maxColWidth="72">
+<caption class="title" style="width:369px">Case Processing Summary<span class="details">Case Processing Summary, table, 1 levels of column headers and 2 levels of row headers, table with 4 columns and 8 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels" colspan="2" title="a. If weight is in effect, see classification table for the total number of cases.">Unweighted Cases<sup>a</sup></td>
+<td class="columnLabels dataAreaLeft vCC role3">N</td>
+<td class="columnLabels vCC role3">Percent</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role2" rowspan="3">Selected Cases</td>
+<td class="rowLabels dataAreaTop vCR role3">Included in Analysis</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">20</td>
+<td class=" e dataAreaTop vCC">100.0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Missing Cases</td>
+<td class=" o dataAreaLeft hCR vCC">0</td>
+<td class=" o hCR vCC">.0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Total</td>
+<td class=" e dataAreaLeft hCR vCC">20</td>
+<td class=" e hCR vCC">100.0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR role3" colspan="2">Unselected Cases</td>
+<td class=" o dataAreaLeft hCR vCC">0</td>
+<td class=" o hCR vCC">.0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR role3" colspan="2">Total</td>
+<td class=" e dataAreaLeft hCR vCC">20</td>
+<td class=" e hCR vCC">100.0</td>
+</tr>
+</tbody><tfoot>
+<tr>
+<td class="footnotes" colspan="4">a. If weight is in effect, see classification table for the total number of cases.</td>
+</tr>
+<tr>
+<td  style="width:107px;padding:0px;border-spacing:0px"></td>
+<td  style="width:128px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tfoot>
+</table>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="1" data-colLabelHeight="1" data-NumRows="2" data-NumCols="1" data-rowLabels="Corner" data-decimal-char="." data-col-labels="Internal Value" data-row-labels="Male;Female" data-layer-dimension="" data-column-dimension="Internal Value;" data-row-dimension="Original Value;" data-maxColWidth="72">
+<caption class="title" style="width:190px">Dependent Variable Encoding<span class="details">Dependent Variable Encoding, table, 1 levels of column headers and 1 levels of row headers, table with 2 columns and 4 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels">Original Value</td>
+<td class="columnLabels dataAreaLeft vCC role3">Internal Value</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role3">Male</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR role3">Female</td>
+<td class=" o dataAreaLeft hCR vCC">1</td>
+</tr>
+<tr>
+<td  style="width:96px;padding:0px;border-spacing:0px"></td>
+<td  style="width:94px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tbody>
+</table>
+</div><CENTER><H1><b><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:18pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Block&nbsp;0:&nbsp;Beginning&nbsp;Block</b></H1></CENTER><BR>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="3" data-colLabelHeight="3" data-NumRows="3" data-NumCols="3" data-rowLabels="Corner" data-decimal-char="." data-col-labels="Predicted Sex Male;  Female; Percentage Correct " data-row-labels="Step 0 Sex Male;  Female; Overall Percentage " data-layer-dimension="" data-column-dimension="Predicted;" data-row-dimension="Step;Observed;" data-maxColWidth="72">
+<caption class="title" style="width:408px" title="a. Constant is included in the model.
+b. The cut value is .500">Classification Table<sup>a,b</sup><span class="details">Classification Table, table, 3 levels of column headers and 3 levels of row headers, table with 6 columns and 9 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="cornerLabels" rowspan="3" colspan="2">Observed</td>
+<td class="columnLabels dataAreaLeft hCC vCC role1" colspan="3">Predicted</td>
+</tr>
+<tr>
+<td class="cornerLabels"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="columnLabels dataAreaLeft hCC vCC role2" colspan="2">Sex</td>
+<td class="columnLabels hCC vCC role3" rowspan="2">Percentage Correct</td>
+</tr>
+<tr>
+<td class="cornerLabels"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="columnLabels dataAreaLeft vCC role3">Male</td>
+<td class="columnLabels vCC role3">Female</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role3" rowspan="3">Step 0</td>
+<td class="rowLabels dataAreaTop vDR role2" rowspan="2">Sex</td>
+<td class="rowLabels dataAreaTop vCR role3">Male</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">13</td>
+<td class=" e dataAreaTop vCC">0</td>
+<td class=" e dataAreaTop vCC">100.0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Female</td>
+<td class=" o dataAreaLeft hCR vCC">7</td>
+<td class=" o hCR vCC">0</td>
+<td class=" o hCR vCC">.0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3" colspan="2">Overall Percentage</td>
+<td class=" e dataAreaLeft hCR vCC">&nbsp;</td>
+<td class=" e hCR vCC">&nbsp;</td>
+<td class=" e hCR vCC">65.0</td>
+</tr>
+</tbody><tfoot>
+<tr>
+<td class="footnotes" colspan="6">a. Constant is included in the model.</td>
+<td class="footnotes"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+</tr>
+<tr>
+<td class="footnotes" colspan="6">b. The cut value is .500</td>
+<td class="footnotes"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+</tr>
+<tr>
+<td  style="width:54px;padding:0px;border-spacing:0px"></td>
+<td  style="width:62px;padding:0px;border-spacing:0px"></td>
+<td  style="width:62px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:96px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tfoot>
+</table>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="2" data-colLabelHeight="1" data-NumRows="1" data-NumCols="6" data-rowLabels="Corner" data-decimal-char="." data-col-labels="B;S.E.;Wald;df;Sig.;Exp(B)" data-row-labels="Step 0 Constant" data-layer-dimension="" data-column-dimension="Statistics;" data-row-dimension="Variable;" data-maxColWidth="72">
+<caption class="title" style="width:525px">Variables in the Equation<span class="details">Variables in the Equation, table, 1 levels of column headers and 2 levels of row headers, table with 8 columns and 3 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels" colspan="2">&nbsp;</td>
+<td class="columnLabels dataAreaLeft vCC role3">B</td>
+<td class="columnLabels vCC role3">S.E.</td>
+<td class="columnLabels vCC role3">Wald</td>
+<td class="columnLabels vCC role3">df</td>
+<td class="columnLabels vCC role3">Sig.</td>
+<td class="columnLabels vCC role3">Exp(B)</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role2">Step 0</td>
+<td class="rowLabels dataAreaTop vCR role3">Constant</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">-.619</td>
+<td class=" e dataAreaTop vCC">.469</td>
+<td class=" e dataAreaTop vCC">1.744</td>
+<td class=" e dataAreaTop vCC">1</td>
+<td class=" e dataAreaTop vCC">.187</td>
+<td class=" e dataAreaTop vCC">.538</td>
+</tr>
+<tr>
+<td  style="width:54px;padding:0px;border-spacing:0px"></td>
+<td  style="width:69px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="3" data-colLabelHeight="1" data-NumRows="2" data-NumCols="3" data-rowLabels="Corner" data-decimal-char="." data-col-labels="Score;df;Sig." data-row-labels="Step 0 Variables earn; Overall Statistics " data-layer-dimension="" data-column-dimension="Statistics;" data-row-dimension="Varname;" data-maxColWidth="72">
+<caption class="title" style="width:381px">Variables not in the Equation<span class="details">Variables not in the Equation, table, 1 levels of column headers and 3 levels of row headers, table with 6 columns and 4 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels" colspan="3">&nbsp;</td>
+<td class="columnLabels dataAreaLeft vCC role3">Score</td>
+<td class="columnLabels vCC role3">df</td>
+<td class="columnLabels vCC role3">Sig.</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role2" rowspan="2">Step 0</td>
+<td class="rowLabels dataAreaTop vCR role2">Variables</td>
+<td class="rowLabels dataAreaTop vCR role3">earn</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">3.186</td>
+<td class=" e dataAreaTop vCC">1</td>
+<td class=" e dataAreaTop vCC">.074</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3" colspan="2">Overall Statistics</td>
+<td class=" o dataAreaLeft hCR vCC">3.186</td>
+<td class=" o hCR vCC">1</td>
+<td class=" o hCR vCC">.074</td>
+</tr>
+<tr>
+<td  style="width:54px;padding:0px;border-spacing:0px"></td>
+<td  style="width:71px;padding:0px;border-spacing:0px"></td>
+<td  style="width:55px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tbody>
+</table>
+</div><CENTER><H1><b><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:18pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Block&nbsp;1:&nbsp;Method&nbsp;=&nbsp;Enter</b></H1></CENTER><BR>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="2" data-colLabelHeight="1" data-NumRows="3" data-NumCols="3" data-rowLabels="Corner" data-decimal-char="." data-col-labels="Chi-square;df;Sig." data-row-labels="Step 1 Step; Block; Model" data-layer-dimension="" data-column-dimension="Statistics;" data-row-dimension="Step;Model;" data-maxColWidth="72">
+<caption class="title" style="width:321px">Omnibus Tests of Model Coefficients<span class="details">Omnibus Tests of Model Coefficients, table, 1 levels of column headers and 2 levels of row headers, table with 5 columns and 5 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels" colspan="2">&nbsp;</td>
+<td class="columnLabels dataAreaLeft vCC role3">Chi-square</td>
+<td class="columnLabels vCC role3">df</td>
+<td class="columnLabels vCC role3">Sig.</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role3" rowspan="3">Step 1</td>
+<td class="rowLabels dataAreaTop vCR role3">Step</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">4.022</td>
+<td class=" e dataAreaTop vCC">1</td>
+<td class=" e dataAreaTop vCC">.045</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Block</td>
+<td class=" o dataAreaLeft hCR vCC">4.022</td>
+<td class=" o hCR vCC">1</td>
+<td class=" o hCR vCC">.045</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Model</td>
+<td class=" e dataAreaLeft hCR vCC">4.022</td>
+<td class=" e hCR vCC">1</td>
+<td class=" e hCR vCC">.045</td>
+</tr>
+<tr>
+<td  style="width:54px;padding:0px;border-spacing:0px"></td>
+<td  style="width:52px;padding:0px;border-spacing:0px"></td>
+<td  style="width:81px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="1" data-colLabelHeight="1" data-NumRows="1" data-NumCols="3" data-rowLabels="Corner" data-decimal-char="." data-col-labels="-2 Log likelihood;Cox & Snell R Square;Nagelkerke R Square" data-row-labels="1" data-layer-dimension="" data-column-dimension="Statistics;" data-row-dimension="Step;" data-maxColWidth="72">
+<caption class="title" style="width:336px">Model Summary<span class="details">Model Summary, table, 1 levels of column headers and 1 levels of row headers, table with 4 columns and 4 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels">Step</td>
+<td class="columnLabels dataAreaLeft vCC role3">-2 Log likelihood</td>
+<td class="columnLabels vCC role3">Cox &amp; Snell R Square</td>
+<td class="columnLabels vCC role3">Nagelkerke R Square</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role3">1</td>
+<td class=" e dataAreaTop dataAreaLeft vCC" title="a. Estimation terminated at iteration number 5 because parameter estimates changed by less than .001.">21.876<sup>a</sup></td>
+<td class=" e dataAreaTop vCC">.182</td>
+<td class=" e dataAreaTop vCC">.251</td>
+</tr>
+</tbody><tfoot>
+<tr>
+<td class="footnotes" colspan="4">a. Estimation terminated at iteration number 5 because parameter estimates changed by less than .001.</td>
+</tr>
+<tr>
+<td  style="width:48px;padding:0px;border-spacing:0px"></td>
+<td  style="width:96px;padding:0px;border-spacing:0px"></td>
+<td  style="width:96px;padding:0px;border-spacing:0px"></td>
+<td  style="width:96px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tfoot>
+</table>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="3" data-colLabelHeight="3" data-NumRows="3" data-NumCols="3" data-rowLabels="Corner" data-decimal-char="." data-col-labels="Predicted Sex Male;  Female; Percentage Correct " data-row-labels="Step 1 Sex Male;  Female; Overall Percentage " data-layer-dimension="" data-column-dimension="Predicted;" data-row-dimension="Step;Observed;" data-maxColWidth="72">
+<caption class="title" style="width:408px" title="a. The cut value is .500">Classification Table<sup>a</sup><span class="details">Classification Table, table, 3 levels of column headers and 3 levels of row headers, table with 6 columns and 8 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="cornerLabels" rowspan="3" colspan="2">Observed</td>
+<td class="columnLabels dataAreaLeft hCC vCC role1" colspan="3">Predicted</td>
+</tr>
+<tr>
+<td class="cornerLabels"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="columnLabels dataAreaLeft hCC vCC role2" colspan="2">Sex</td>
+<td class="columnLabels hCC vCC role3" rowspan="2">Percentage Correct</td>
+</tr>
+<tr>
+<td class="cornerLabels"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="columnLabels dataAreaLeft vCC role3">Male</td>
+<td class="columnLabels vCC role3">Female</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role3" rowspan="3">Step 1</td>
+<td class="rowLabels dataAreaTop vDR role2" rowspan="2">Sex</td>
+<td class="rowLabels dataAreaTop vCR role3">Male</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">11</td>
+<td class=" e dataAreaTop vCC">2</td>
+<td class=" e dataAreaTop vCC">84.6</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Female</td>
+<td class=" o dataAreaLeft hCR vCC">4</td>
+<td class=" o hCR vCC">3</td>
+<td class=" o hCR vCC">42.9</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3" colspan="2">Overall Percentage</td>
+<td class=" e dataAreaLeft hCR vCC">&nbsp;</td>
+<td class=" e hCR vCC">&nbsp;</td>
+<td class=" e hCR vCC">70.0</td>
+</tr>
+</tbody><tfoot>
+<tr>
+<td class="footnotes" colspan="6">a. The cut value is .500</td>
+<td class="footnotes"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+</tr>
+<tr>
+<td  style="width:54px;padding:0px;border-spacing:0px"></td>
+<td  style="width:62px;padding:0px;border-spacing:0px"></td>
+<td  style="width:62px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:96px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tfoot>
+</table>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="2" data-colLabelHeight="1" data-NumRows="2" data-NumCols="6" data-rowLabels="Corner" data-decimal-char="." data-col-labels="B;S.E.;Wald;df;Sig.;Exp(B)" data-row-labels="Step 1 earn; Constant" data-layer-dimension="" data-column-dimension="Statistics;" data-row-dimension="Variable;" data-maxColWidth="72">
+<caption class="title" style="width:531px">Variables in the Equation<span class="details">Variables in the Equation, table, 1 levels of column headers and 2 levels of row headers, table with 8 columns and 5 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels" colspan="2">&nbsp;</td>
+<td class="columnLabels dataAreaLeft vCC role3">B</td>
+<td class="columnLabels vCC role3">S.E.</td>
+<td class="columnLabels vCC role3">Wald</td>
+<td class="columnLabels vCC role3">df</td>
+<td class="columnLabels vCC role3">Sig.</td>
+<td class="columnLabels vCC role3">Exp(B)</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role2" rowspan="2" title="a. Variable(s) entered on step 1: earn.">Step 1<sup>a</sup></td>
+<td class="rowLabels dataAreaTop vCR role3">earn</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">.000</td>
+<td class=" e dataAreaTop vCC">.000</td>
+<td class=" e dataAreaTop vCC">2.597</td>
+<td class=" e dataAreaTop vCC">1</td>
+<td class=" e dataAreaTop vCC">.107</td>
+<td class=" e dataAreaTop vCC">1.000</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Constant</td>
+<td class=" o dataAreaLeft hCR vCC">.946</td>
+<td class=" o hCR vCC">.990</td>
+<td class=" o hCR vCC">.913</td>
+<td class=" o hCR vCC">1</td>
+<td class=" o hCR vCC">.339</td>
+<td class=" o hCR vCC">2.575</td>
+</tr>
+</tbody><tfoot>
+<tr>
+<td class="footnotes" colspan="8">a. Variable(s) entered on step 1: earn.</td>
+<td class="footnotes"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+</tr>
+<tr>
+<td  style="width:60px;padding:0px;border-spacing:0px"></td>
+<td  style="width:69px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tfoot>
+</table>
+</div><CENTER><H1><b><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:18pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Logistic&nbsp;Regression</b></H1></CENTER><BR>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="2" data-colLabelHeight="1" data-NumRows="5" data-NumCols="2" data-rowLabels="Corner" data-decimal-char="." data-col-labels="N;Percent" data-row-labels="Selected Cases Included in Analysis; Missing Cases; Total;Unselected Cases ;Total " data-layer-dimension="" data-column-dimension="Statistics;" data-row-dimension="Unweighted Cases;" data-maxColWidth="72">
+<caption class="title" style="width:369px">Case Processing Summary<span class="details">Case Processing Summary, table, 1 levels of column headers and 2 levels of row headers, table with 4 columns and 8 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels" colspan="2" title="a. If weight is in effect, see classification table for the total number of cases.">Unweighted Cases<sup>a</sup></td>
+<td class="columnLabels dataAreaLeft vCC role3">N</td>
+<td class="columnLabels vCC role3">Percent</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role2" rowspan="3">Selected Cases</td>
+<td class="rowLabels dataAreaTop vCR role3">Included in Analysis</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">20</td>
+<td class=" e dataAreaTop vCC">100.0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Missing Cases</td>
+<td class=" o dataAreaLeft hCR vCC">0</td>
+<td class=" o hCR vCC">.0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Total</td>
+<td class=" e dataAreaLeft hCR vCC">20</td>
+<td class=" e hCR vCC">100.0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR role3" colspan="2">Unselected Cases</td>
+<td class=" o dataAreaLeft hCR vCC">0</td>
+<td class=" o hCR vCC">.0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR role3" colspan="2">Total</td>
+<td class=" e dataAreaLeft hCR vCC">20</td>
+<td class=" e hCR vCC">100.0</td>
+</tr>
+</tbody><tfoot>
+<tr>
+<td class="footnotes" colspan="4">a. If weight is in effect, see classification table for the total number of cases.</td>
+</tr>
+<tr>
+<td  style="width:107px;padding:0px;border-spacing:0px"></td>
+<td  style="width:128px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tfoot>
+</table>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="1" data-colLabelHeight="1" data-NumRows="2" data-NumCols="1" data-rowLabels="Corner" data-decimal-char="." data-col-labels="Internal Value" data-row-labels="Male;Female" data-layer-dimension="" data-column-dimension="Internal Value;" data-row-dimension="Original Value;" data-maxColWidth="72">
+<caption class="title" style="width:190px">Dependent Variable Encoding<span class="details">Dependent Variable Encoding, table, 1 levels of column headers and 1 levels of row headers, table with 2 columns and 4 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels">Original Value</td>
+<td class="columnLabels dataAreaLeft vCC role3">Internal Value</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role3">Male</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR role3">Female</td>
+<td class=" o dataAreaLeft hCR vCC">1</td>
+</tr>
+<tr>
+<td  style="width:96px;padding:0px;border-spacing:0px"></td>
+<td  style="width:94px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tbody>
+</table>
+</div><CENTER><H1><b><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:18pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Block&nbsp;0:&nbsp;Beginning&nbsp;Block</b></H1></CENTER><BR>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="3" data-colLabelHeight="3" data-NumRows="3" data-NumCols="3" data-rowLabels="Corner" data-decimal-char="." data-col-labels="Predicted Sex Male;  Female; Percentage Correct " data-row-labels="Step 0 Sex Male;  Female; Overall Percentage " data-layer-dimension="" data-column-dimension="Predicted;" data-row-dimension="Step;Observed;" data-maxColWidth="72">
+<caption class="title" style="width:408px" title="a. Constant is included in the model.
+b. The cut value is .500">Classification Table<sup>a,b</sup><span class="details">Classification Table, table, 3 levels of column headers and 3 levels of row headers, table with 6 columns and 9 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="cornerLabels" rowspan="3" colspan="2">Observed</td>
+<td class="columnLabels dataAreaLeft hCC vCC role1" colspan="3">Predicted</td>
+</tr>
+<tr>
+<td class="cornerLabels"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="columnLabels dataAreaLeft hCC vCC role2" colspan="2">Sex</td>
+<td class="columnLabels hCC vCC role3" rowspan="2">Percentage Correct</td>
+</tr>
+<tr>
+<td class="cornerLabels"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="columnLabels dataAreaLeft vCC role3">Male</td>
+<td class="columnLabels vCC role3">Female</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role3" rowspan="3">Step 0</td>
+<td class="rowLabels dataAreaTop vDR role2" rowspan="2">Sex</td>
+<td class="rowLabels dataAreaTop vCR role3">Male</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">13</td>
+<td class=" e dataAreaTop vCC">0</td>
+<td class=" e dataAreaTop vCC">100.0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Female</td>
+<td class=" o dataAreaLeft hCR vCC">7</td>
+<td class=" o hCR vCC">0</td>
+<td class=" o hCR vCC">.0</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3" colspan="2">Overall Percentage</td>
+<td class=" e dataAreaLeft hCR vCC">&nbsp;</td>
+<td class=" e hCR vCC">&nbsp;</td>
+<td class=" e hCR vCC">65.0</td>
+</tr>
+</tbody><tfoot>
+<tr>
+<td class="footnotes" colspan="6">a. Constant is included in the model.</td>
+<td class="footnotes"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+</tr>
+<tr>
+<td class="footnotes" colspan="6">b. The cut value is .500</td>
+<td class="footnotes"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+</tr>
+<tr>
+<td  style="width:54px;padding:0px;border-spacing:0px"></td>
+<td  style="width:62px;padding:0px;border-spacing:0px"></td>
+<td  style="width:62px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:96px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tfoot>
+</table>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="2" data-colLabelHeight="1" data-NumRows="1" data-NumCols="6" data-rowLabels="Corner" data-decimal-char="." data-col-labels="B;S.E.;Wald;df;Sig.;Exp(B)" data-row-labels="Step 0 Constant" data-layer-dimension="" data-column-dimension="Statistics;" data-row-dimension="Variable;" data-maxColWidth="72">
+<caption class="title" style="width:525px">Variables in the Equation<span class="details">Variables in the Equation, table, 1 levels of column headers and 2 levels of row headers, table with 8 columns and 3 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels" colspan="2">&nbsp;</td>
+<td class="columnLabels dataAreaLeft vCC role3">B</td>
+<td class="columnLabels vCC role3">S.E.</td>
+<td class="columnLabels vCC role3">Wald</td>
+<td class="columnLabels vCC role3">df</td>
+<td class="columnLabels vCC role3">Sig.</td>
+<td class="columnLabels vCC role3">Exp(B)</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role2">Step 0</td>
+<td class="rowLabels dataAreaTop vCR role3">Constant</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">-.619</td>
+<td class=" e dataAreaTop vCC">.469</td>
+<td class=" e dataAreaTop vCC">1.744</td>
+<td class=" e dataAreaTop vCC">1</td>
+<td class=" e dataAreaTop vCC">.187</td>
+<td class=" e dataAreaTop vCC">.538</td>
+</tr>
+<tr>
+<td  style="width:54px;padding:0px;border-spacing:0px"></td>
+<td  style="width:69px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="3" data-colLabelHeight="1" data-NumRows="3" data-NumCols="3" data-rowLabels="Corner" data-decimal-char="." data-col-labels="Score;df;Sig." data-row-labels="Step 0 Variables age;  educ;  earn" data-layer-dimension="" data-column-dimension="Statistics;" data-row-dimension="Varname;" data-maxColWidth="72">
+<caption class="title" style="width:374px" title="a. Residual Chi-Squares are not computed because of redundancies.">Variables not in the Equation<sup>a</sup><span class="details">Variables not in the Equation, table, 1 levels of column headers and 3 levels of row headers, table with 6 columns and 6 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels" colspan="3">&nbsp;</td>
+<td class="columnLabels dataAreaLeft vCC role3">Score</td>
+<td class="columnLabels vCC role3">df</td>
+<td class="columnLabels vCC role3">Sig.</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role2" rowspan="3">Step 0</td>
+<td class="rowLabels dataAreaTop vCR role2" rowspan="3">Variables</td>
+<td class="rowLabels dataAreaTop vCR role3">age</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">.360</td>
+<td class=" e dataAreaTop vCC">1</td>
+<td class=" e dataAreaTop vCC">.549</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">educ</td>
+<td class=" o dataAreaLeft hCR vCC">.220</td>
+<td class=" o hCR vCC">1</td>
+<td class=" o hCR vCC">.639</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">earn</td>
+<td class=" e dataAreaLeft hCR vCC">3.186</td>
+<td class=" e hCR vCC">1</td>
+<td class=" e hCR vCC">.074</td>
+</tr>
+</tbody><tfoot>
+<tr>
+<td class="footnotes" colspan="6">a. Residual Chi-Squares are not computed because of redundancies.</td>
+<td class="footnotes"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="footnotes"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+</tr>
+<tr>
+<td  style="width:54px;padding:0px;border-spacing:0px"></td>
+<td  style="width:71px;padding:0px;border-spacing:0px"></td>
+<td  style="width:48px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tfoot>
+</table>
+</div><CENTER><H1><b><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:18pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Block&nbsp;1:&nbsp;Method&nbsp;=&nbsp;Enter</b></H1></CENTER><BR>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="2" data-colLabelHeight="1" data-NumRows="3" data-NumCols="3" data-rowLabels="Corner" data-decimal-char="." data-col-labels="Chi-square;df;Sig." data-row-labels="Step 1 Step; Block; Model" data-layer-dimension="" data-column-dimension="Statistics;" data-row-dimension="Step;Model;" data-maxColWidth="72">
+<caption class="title" style="width:321px">Omnibus Tests of Model Coefficients<span class="details">Omnibus Tests of Model Coefficients, table, 1 levels of column headers and 2 levels of row headers, table with 5 columns and 5 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels" colspan="2">&nbsp;</td>
+<td class="columnLabels dataAreaLeft vCC role3">Chi-square</td>
+<td class="columnLabels vCC role3">df</td>
+<td class="columnLabels vCC role3">Sig.</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role3" rowspan="3">Step 1</td>
+<td class="rowLabels dataAreaTop vCR role3">Step</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">5.536</td>
+<td class=" e dataAreaTop vCC">3</td>
+<td class=" e dataAreaTop vCC">.137</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Block</td>
+<td class=" o dataAreaLeft hCR vCC">5.536</td>
+<td class=" o hCR vCC">3</td>
+<td class=" o hCR vCC">.137</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Model</td>
+<td class=" e dataAreaLeft hCR vCC">5.536</td>
+<td class=" e hCR vCC">3</td>
+<td class=" e hCR vCC">.137</td>
+</tr>
+<tr>
+<td  style="width:54px;padding:0px;border-spacing:0px"></td>
+<td  style="width:52px;padding:0px;border-spacing:0px"></td>
+<td  style="width:81px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="1" data-colLabelHeight="1" data-NumRows="1" data-NumCols="3" data-rowLabels="Corner" data-decimal-char="." data-col-labels="-2 Log likelihood;Cox & Snell R Square;Nagelkerke R Square" data-row-labels="1" data-layer-dimension="" data-column-dimension="Statistics;" data-row-dimension="Step;" data-maxColWidth="72">
+<caption class="title" style="width:336px">Model Summary<span class="details">Model Summary, table, 1 levels of column headers and 1 levels of row headers, table with 4 columns and 4 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels">Step</td>
+<td class="columnLabels dataAreaLeft vCC role3">-2 Log likelihood</td>
+<td class="columnLabels vCC role3">Cox &amp; Snell R Square</td>
+<td class="columnLabels vCC role3">Nagelkerke R Square</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role3">1</td>
+<td class=" e dataAreaTop dataAreaLeft vCC" title="a. Estimation terminated at iteration number 6 because parameter estimates changed by less than .001.">20.362<sup>a</sup></td>
+<td class=" e dataAreaTop vCC">.242</td>
+<td class=" e dataAreaTop vCC">.333</td>
+</tr>
+</tbody><tfoot>
+<tr>
+<td class="footnotes" colspan="4">a. Estimation terminated at iteration number 6 because parameter estimates changed by less than .001.</td>
+</tr>
+<tr>
+<td  style="width:48px;padding:0px;border-spacing:0px"></td>
+<td  style="width:96px;padding:0px;border-spacing:0px"></td>
+<td  style="width:96px;padding:0px;border-spacing:0px"></td>
+<td  style="width:96px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tfoot>
+</table>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="3" data-colLabelHeight="3" data-NumRows="3" data-NumCols="3" data-rowLabels="Corner" data-decimal-char="." data-col-labels="Predicted Sex Male;  Female; Percentage Correct " data-row-labels="Step 1 Sex Male;  Female; Overall Percentage " data-layer-dimension="" data-column-dimension="Predicted;" data-row-dimension="Step;Observed;" data-maxColWidth="72">
+<caption class="title" style="width:408px" title="a. The cut value is .500">Classification Table<sup>a</sup><span class="details">Classification Table, table, 3 levels of column headers and 3 levels of row headers, table with 6 columns and 8 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="cornerLabels" rowspan="3" colspan="2">Observed</td>
+<td class="columnLabels dataAreaLeft hCC vCC role1" colspan="3">Predicted</td>
+</tr>
+<tr>
+<td class="cornerLabels"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="columnLabels dataAreaLeft hCC vCC role2" colspan="2">Sex</td>
+<td class="columnLabels hCC vCC role3" rowspan="2">Percentage Correct</td>
+</tr>
+<tr>
+<td class="cornerLabels"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+<td class="columnLabels dataAreaLeft vCC role3">Male</td>
+<td class="columnLabels vCC role3">Female</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role3" rowspan="3">Step 1</td>
+<td class="rowLabels dataAreaTop vDR role2" rowspan="2">Sex</td>
+<td class="rowLabels dataAreaTop vCR role3">Male</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">12</td>
+<td class=" e dataAreaTop vCC">1</td>
+<td class=" e dataAreaTop vCC">92.3</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Female</td>
+<td class=" o dataAreaLeft hCR vCC">3</td>
+<td class=" o hCR vCC">4</td>
+<td class=" o hCR vCC">57.1</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3" colspan="2">Overall Percentage</td>
+<td class=" e dataAreaLeft hCR vCC">&nbsp;</td>
+<td class=" e hCR vCC">&nbsp;</td>
+<td class=" e hCR vCC">80.0</td>
+</tr>
+</tbody><tfoot>
+<tr>
+<td class="footnotes" colspan="6">a. The cut value is .500</td>
+<td class="footnotes"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+</tr>
+<tr>
+<td  style="width:54px;padding:0px;border-spacing:0px"></td>
+<td  style="width:62px;padding:0px;border-spacing:0px"></td>
+<td  style="width:62px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:96px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tfoot>
+</table>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.Default .title{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:bold;
+padding-bottom:6pt;
+}
+.Default .layers{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .cornerLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .columnLabels{
+vertical-align:bottom;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:center;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .rowLabels{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .o, .Default .e{
+vertical-align:middle;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:right;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .o{
+color:null;
+background-color:null;
+}
+.Default .e{
+color:#000000;
+background-color:#ffffff;
+}
+.Default .caption{
+vertical-align:top;
+padding-right:8pt;
+padding-left:6pt;
+padding-top:0pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:0pt;
+}
+.Default .footnotes{
+vertical-align:top;
+padding-right:6pt;
+padding-left:8pt;
+padding-top:2pt;
+text-align:left;
+color:#000000;
+font-size:9pt;
+background-color:#ffffff;
+font-family:sans-serif;
+font-weight:normal;
+padding-bottom:3pt;
+}
+.Default .titleLayerSeparator{
+border-top:1px none #000000;
+}
+.Default .innerFrameBd{
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-left:2px solid #000000;
+}
+.Default .dataAreaLeft{
+border-left:2px solid #000000;
+}
+.Default .dataAreaTop{
+border-top:2px solid #000000;
+}
+.Default .hCR{
+border-top:1px none #000000;
+}
+.Default .hDR{
+border-top:1px solid #000000;
+}
+.Default .vCR{
+border-left:1px none #000000;
+}
+.Default .vDR{
+border-left:1px none #000000;
+}
+.Default .hCC{
+border-bottom:1px solid #000000;
+}
+.Default .hDC{
+border-bottom:1px solid #000000;
+}
+.Default .vCC{
+border-right:1px solid #000000;
+}
+.Default .vDC{
+border-right:1px solid #000000;
+}
+</style>
+</div>
+<div class="itemBody">
+<table class="Default PivotTable" data-lookName="Default" data-rowLabelWidth="2" data-colLabelHeight="1" data-NumRows="4" data-NumCols="6" data-rowLabels="Corner" data-decimal-char="." data-col-labels="B;S.E.;Wald;df;Sig.;Exp(B)" data-row-labels="Step 1 age; educ; earn; Constant" data-layer-dimension="" data-column-dimension="Statistics;" data-row-dimension="Variable;" data-maxColWidth="72">
+<caption class="title" style="width:531px">Variables in the Equation<span class="details">Variables in the Equation, table, 1 levels of column headers and 2 levels of row headers, table with 8 columns and 7 rows</span></caption>
+<tbody class="PivotBody defaultLayer innerFrameBd">
+<tr>
+<td class="cornerLabels" colspan="2">&nbsp;</td>
+<td class="columnLabels dataAreaLeft vCC role3">B</td>
+<td class="columnLabels vCC role3">S.E.</td>
+<td class="columnLabels vCC role3">Wald</td>
+<td class="columnLabels vCC role3">df</td>
+<td class="columnLabels vCC role3">Sig.</td>
+<td class="columnLabels vCC role3">Exp(B)</td>
+</tr>
+<tr>
+<td class="rowLabels dataAreaTop role2" rowspan="4" title="a. Variable(s) entered on step 1: age, educ, earn.">Step 1<sup>a</sup></td>
+<td class="rowLabels dataAreaTop vCR role3">age</td>
+<td class=" e dataAreaTop dataAreaLeft vCC">-.136</td>
+<td class=" e dataAreaTop vCC">.212</td>
+<td class=" e dataAreaTop vCC">.408</td>
+<td class=" e dataAreaTop vCC">1</td>
+<td class=" e dataAreaTop vCC">.523</td>
+<td class=" e dataAreaTop vCC">.873</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">educ</td>
+<td class=" o dataAreaLeft hCR vCC">.790</td>
+<td class=" o hCR vCC">.681</td>
+<td class=" o hCR vCC">1.344</td>
+<td class=" o hCR vCC">1</td>
+<td class=" o hCR vCC">.246</td>
+<td class=" o hCR vCC">2.203</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">earn</td>
+<td class=" e dataAreaLeft hCR vCC">.000</td>
+<td class=" e hCR vCC">.000</td>
+<td class=" e hCR vCC">2.898</td>
+<td class=" e hCR vCC">1</td>
+<td class=" e hCR vCC">.089</td>
+<td class=" e hCR vCC">1.000</td>
+</tr>
+<tr>
+<td class="rowLabels hCR vCR role3">Constant</td>
+<td class=" o dataAreaLeft hCR vCC">2.736</td>
+<td class=" o hCR vCC">5.684</td>
+<td class=" o hCR vCC">.232</td>
+<td class=" o hCR vCC">1</td>
+<td class=" o hCR vCC">.630</td>
+<td class=" o hCR vCC">15.418</td>
+</tr>
+</tbody><tfoot>
+<tr>
+<td class="footnotes" colspan="8">a. Variable(s) entered on step 1: age, educ, earn.</td>
+<td class="footnotes"  bgcolor="#ffffff"><font color="#000000">&nbsp;</font></td>
+</tr>
+<tr>
+<td  style="width:60px;padding:0px;border-spacing:0px"></td>
+<td  style="width:69px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+<td  style="width:67px;padding:0px;border-spacing:0px"></td>
+</tr>
+</tfoot>
+</table>
+</div></body></html>
